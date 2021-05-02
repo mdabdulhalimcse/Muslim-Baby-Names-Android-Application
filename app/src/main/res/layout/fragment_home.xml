@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv1"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv1"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/muslimlogo"
+                        android:background="#00ffaa"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="7dp"
+                            android:background="#000aaa"
+                            android:outlineAmbientShadowColor="#000aaa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="শিশুর সুন্দর নাম রাখার গুরুত্ব"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv2"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv2"
+                app:cardCornerRadius="180dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#00ffaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="নাম করণে কতিপয় লক্ষণীয় দিক"
+                        android:textSize="22dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv3"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv3"
+                app:cardCornerRadius="180dp"
+
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00ffaa"
+                        android:gravity="center"
+                        android:text="তাহনীক ও আকীকা"
+                        android:textColor="#000aaa"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv4"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv4"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ইসলামী ছেলেদের নাম"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv5"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv5"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ইসলামী মেয়েদের নাম"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv6"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv6"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="আল্লাহর ৯৯টি নাম ও অর্থ"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv7"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv7"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="নবীদের নাম"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv8"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv8"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="পুরুষ সাহাবীদের নাম"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv9"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv9"
+                app:cardCornerRadius="180dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="মহিলা সাহাবাদের নাম"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv10"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="180dp"
+                android:onClick="methodcv10"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ইসলামে যেসব নাম রাখা হারাম"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="#00ffaa"
+                        android:textColor="#000aaa"
+                        android:gravity="center"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv11"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv11"
+                app:cardCornerRadius="180dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00ffaa"
+                        android:gravity="center"
+                        android:text="যেসব নাম রাখা মাকরুহ"
+                        android:textColor="#000aaa"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv12"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv12"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00ffaa"
+                        android:gravity="center"
+                        android:text="যেসব নাম রাখা শিরকী"
+                        android:textStyle="bold"
+                        android:textColor="#000aaa"
+                        android:textSize="22dp" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv13"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="methodcv13"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00ffaa"
+                        android:gravity="center"
+                        android:text="নামকরণে কুসংস্কার"
+                        android:textColor="#000aaa"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/cv14"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="methodcv14"
+                app:cardCornerRadius="180dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="7dp"
+                    android:background="#000aaa"
+                    android:outlineAmbientShadowColor="#000aaa" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@mipmap/muslimlogo"
+                    android:background="#00ffaa"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="7dp"
+                        android:background="#000aaa"
+                        android:outlineAmbientShadowColor="#000aaa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00ffaa"
+                        android:gravity="center"
+                        android:text="ইসলামী ও উত্তম নাম"
+                        android:textColor="#000aaa"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+
+                        />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:outlineAmbientShadowColor="#000aaa"
+                        android:background="#000aaa"
+                        android:layout_marginBottom="50dp"
+                        />
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
